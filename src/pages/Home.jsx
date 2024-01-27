@@ -22,21 +22,8 @@ const Home = () => {
        </div>
        
     <div className='  '>
-      <div className='mt-20 '>
-        {motors.map((motor,id) => (
-          
-         <ul>   
-          <div>
-          <div className=' bg-black/50  p-5 relative'>
-            <img src={motor.Img} key={id} className='  h-[250px] w-[300px] p-9 mr-24'/>
-            
-            </div>
-                      </div>
-          </ul>
-        ))}
-       
-      </div>
-  
+      <h>Powered by eth
+      </h>
       </div>
       
     </div>
